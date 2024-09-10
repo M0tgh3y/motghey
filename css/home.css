@@ -5,7 +5,100 @@
 
 body {
     background-color: rgb(222, 108, 176);
+    font-family: 'Courier New', Courier, monospace;
 }
+
+/*titles*/
+
+@keyframes logo {
+    from  { left:0px; top: 0;}
+    to { left:0px; top: 112px;}
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    position: absolute;
+    bottom: 550px;
+    left: 0;
+    animation-name: logo;
+    animation-duration: 4s;
+}
+
+.logotext {
+    font-size: 40px;
+}
+
+@keyframes home {
+    from  { left:350px; top: 0;}
+    to { left:350px; top: 182px;}
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    bottom: 480px;
+    left: 350px;
+    animation-name: home;
+    animation-duration: 4s;
+}
+
+.hometext {
+    font-size: 40px;
+}
+
+@keyframes posts {
+    from  { left:600px; top: 0;}
+    to { left:600px; top: 252px;}
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    position: absolute;
+    bottom: 410px;
+    left: 600px;
+    animation-name: posts;
+    animation-duration: 4s;
+}
+
+.poststext {
+    font-size: 40px;
+}
+
+@keyframes blabla {
+    from  { left:850px; top: 0;}
+    to { left:850px; top: 322px;}
+}
+
+.blabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    bottom: 340px;
+    left: 850px;
+    animation-name: blabla;
+    animation-duration: 4s;
+}
+
+.blatext {
+    font-size: 40px;
+}
+
+/*divs*/
 
 @keyframes div1 {
     from  { left:0px; bottom:-550px;}
