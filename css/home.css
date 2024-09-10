@@ -12,7 +12,7 @@ body {
 
 @keyframes logo {
     from  { left:0px; top: 0;}
-    to { left:0px; top: 112px;}
+    to { left:0px; top: 110px;}
 }
 
 .logo {
@@ -34,7 +34,7 @@ body {
 
 @keyframes home {
     from  { left:350px; top: 0;}
-    to { left:350px; top: 182px;}
+    to { left:350px; top: 180px;}
 }
 
 .home {
@@ -56,7 +56,7 @@ body {
 
 @keyframes posts {
     from  { left:600px; top: 0;}
-    to { left:600px; top: 252px;}
+    to { left:600px; top: 250px;}
 }
 
 .posts {
@@ -78,7 +78,7 @@ body {
 
 @keyframes blabla {
     from  { left:850px; top: 0;}
-    to { left:850px; top: 322px;}
+    to { left:850px; top: 320px;}
 }
 
 .blabla {
@@ -95,6 +95,28 @@ body {
 }
 
 .blatext {
+    font-size: 40px;
+}
+
+@keyframes music {
+    from  { left:1050px; top: 0;}
+    to { left:1050px; top: 390px;}
+}
+
+.music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    bottom: 270px;
+    left: 1050px;
+    animation-name: music;
+    animation-duration: 4s;
+}
+
+.musictext {
     font-size: 40px;
 }
 
